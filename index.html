@@ -358,6 +358,27 @@
                 font-size: 1.6rem;
             }
         }
+        /* Mobile logo alignment fix */
+@media (max-width: 576px) {
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .logo-icon {
+        margin-right: 0;
+        font-size: 2rem;
+    }
+
+    .logo-text {
+        text-align: center;
+        line-height: 1.2;
+        font-size: 1.4rem;
+    }
+}
+
     </style>
 </head>
 <body>
@@ -542,4 +563,5 @@
         });
     </script>
 </body>
+
 </html>
